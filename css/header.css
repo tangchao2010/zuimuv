@@ -1,0 +1,51 @@
+/* 通用 */
+.x-wrap{ position: relative; width: 1230px; height: 100%; margin: auto;}
+
+.x-header, .x-footer, .x-container{
+    position: relative; width: 100%;
+    margin: 0 auto;}
+.x-header{ height: 72px; z-index: 2;
+    border-bottom: 1px solid #ededed;
+    position: fixed;}
+.x-header .logo{ overflow: hidden;margin: 0 auto;width: 180px;}
+.x-header .logo img{ display: none; width: 100%; padding-top: 9px;}
+.x-header .logo img.bak {display: block;}
+.x-header .nav-mod{ position: absolute; right: 744px; top: 0;}
+.x-header .nav-mod.nav-r {left: 744px;right: inherit;}
+
+
+.nav-mod{ position: absolute; /*left*/: 300px; top: 0;}
+.nav-mod .nav-link{ display: block; white-space: nowrap}
+.nav-mod .nav-link:hover{ color: #eb0000;}
+.nav-mod .nav-item{}
+.nav-mod .nav-lv{ opacity: 0; visibility: hidden;
+    -webkit-transition: opacity 0.2s, visibility 0.2s;
+    transition: opacity 0.2s, visibility 0.2s;
+}
+.nav-mod .nav-lv1{ opacity: 1; visibility: visible;}
+.nav-mod .nav-lv1 > .nav-item{ position: relative; float: left;}
+.nav-mod .nav-lv1 .nav-link{ padding: 0 22px;font-size: 14px;
+    line-height: 72px; color: #fff;}
+
+.nav-mod .nav-item:hover > .nav-tit .nav-link{ color: #eb0000;}
+.nav-mod .nav-item:hover > .nav-lv{ opacity: 1; visibility: visible;}
+.nav-mod .nav-item.cur > .nav-tit .nav-link{ color: #eb0000;}
+
+.banner-container .x-header{position:absolute; background: rgba(0,0,0,0.4);/*background: url(../images/header/opacity-b30.png);*/border-bottom: 0;}
+.activeHeader .nav-mod .nav-lv1 .nav-link{
+    transition: all 0.5s;
+    color: #1a1a1a;
+}
+.activeHeader .logo img.bakback {
+    display: block;
+}
+.banner-container .activeHeader {
+    transition: all 0.5s;
+    background: rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0 2px 8px #C6C6C6;
+    -webkit-box-shadow: 0 2px 8px #C6C6C6;
+    box-shadow: 0 2px 8px #C6C6C6;
+}
+.activeHeader .logo img.bak {
+    display: none;
+}

@@ -1,0 +1,921 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="author" content="http://www.fractal-technology.com">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="keywords" content="最幕影业"/>
+    <meta name="description" content="最幕影业以影视剧的策划、制作及其衍生业务为主营业务。 "/>
+    <title>最幕影业 - 最幕影业</title>
+    <link rel="stylesheet" type="text/css" href="css/jquery.mcustomscrollbar.css">
+    <link rel="stylesheet" type="text/css" href="css/video-js.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/page.css">
+    <link rel="stylesheet" href="./css/layui.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/artist.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/layui.all.js"></script>
+    <script src="js/jquery.placeholder.min.js"></script>
+    <script src="js/jquery.ba-throttle-debounce.min.js"></script>
+    <script src="js/jquery.mcustomscrollbar.concat.min.js"></script>
+    <script src="js/tweenmax.min.js"></script>
+    <script src="js/video.js"></script>
+    <!--<script src="js/slick.js"></script>-->
+    <script src="js/xroll.js"></script>
+    <script src="js/global.js"></script>
+    <script src="js/swiper.min.js"></script>
+</head>
+<body class="index">
+<div class="gotop js-scroller">
+    <span class="openvideo">查看<br/>视频</span>
+    <span class="js-gotop">回到<br/>顶部</span>
+</div>
+
+<div class="top_vedio">
+    <div class="videoW">
+        <video id="example_video_1" class="video-js vjs-default-skin vjs-big-play-centered" controls
+               src="./video/video.mp4"
+               preload="auto"
+        ></video>
+    </div>
+    <div class="scr_btn">
+        <span>点击隐藏</span>
+    </div>
+</div>
+
+<div class="banner-container">
+    <!--<div class="vedio_side"></div>-->
+    <div class="x-header">
+        <div class="x-wrap">
+            <div class="nav-mod">
+                <ul class="nav-lv nav-lv1 clear">
+                    <li class="nav-item">
+                        <div class="nav-tit">
+                            <a class="nav-link" href="#">关于我们</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-tit">
+                            <a class="nav-link" href="#">战略布局</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-tit">
+                            <a class="nav-link" href="#">新闻中心</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-tit">
+                            <a class="nav-link" href="#">最幕培训</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="logo">
+                <a href="/">
+                    <img src="./images/header/logo_wihite.png" alt="" title="" class="bak">
+                    <img src="./images/header/logo_black.png" alt="" title="" class="bakback">
+                </a>
+            </div>
+            <div class="nav-mod nav-r">
+                <ul class="nav-lv nav-lv1 clear">
+                    <li class="nav-item">
+                        <div class="nav-tit">
+                            <a class="nav-link" href="#">最幕宣发</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-tit">
+                            <a class="nav-link" href="#">演员经纪</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-tit">
+                            <a class="nav-link" href="#">联系我们</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-tit">
+                            <a class="nav-link" href="#">诚聘精英</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="banner-container" class=" swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide x-container">
+                <div class="title" data-swiper-parallax="-130%">
+                    <h3>齐鲁儿女</h3>
+                </div>
+                <div class="bannerImgBox img-box"><img src="images/img1.jpg" style="transform:translateX(0);"></div>
+            </div>
+            <div class="swiper-slide x-container">
+                <div class="title" data-swiper-parllax="-130%">
+                    <h3>QI LU ER NV</h3>
+                </div>
+                <div class="bannerImgBox img-box"><img src="images/img2.jpg"></div>
+            </div>
+        </div>
+        <div class="button-prev button">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 350 160 90">
+                <g id="arrow-svg-home">
+                    <g id="circ" class="cls-1">
+                        <circle cx="42" cy="42" r="40" class="cls-4"></circle>
+                    </g>
+                    <g id="arrow">
+                        <path id="arrow-trg" d="M.983,6.929,4.447,3.464.983,0,0,.983,2.482,3.464,0,5.946Z"></path>
+                    </g>
+                    <path id="line" d="M120,0H0" class="cls-3"></path>
+                </g>
+            </svg>
+        </div>
+        <!--左箭头-->
+        <div class="button-next button">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 350 160 90">
+                <g id="arrow-svg-home">
+                    <g id="circ" class="cls-1">
+                        <circle cx="42" cy="42" r="40" class="cls-4"></circle>
+                    </g>
+                    <g id="arrow">
+                        <path id="arrow-trg" d="M.983,6.929,4.447,3.464.983,0,0,.983,2.482,3.464,0,5.946Z"
+                              class="cls-2"></path>
+                    </g>
+                    <path id="line" d="M120,0H0" class="cls-3"></path>
+                </g>
+            </svg>
+        </div>
+        <!--右箭头-->
+    </div>
+</div>
+
+<!--领导简介-->
+<div class="leader-container">
+    <div class="zm-intro">
+        <div class="zm-intro-content">
+            <img src="./images/leader/title.png" alt="">
+            <p>最幕影业全称最幕（北京）影视文化传媒有限公司，致力于影视拍摄、电影发行、广播电视节目制作、影视文化培训、文艺创作、版权贸易、影视基金创投和新锐导演孵化等综合文
+                化产业项目。下设上海最幕文化传媒有限公司、盘古国际（泰山）文化传媒有限公司、最幕（山东）文化传媒有限公司、北京最幕国际贸易有限公司、北京最幕影视发行有限公司。 最幕
+                影业全称最幕（北京）影视文化传媒有限公司，致力于影视拍摄、电影发行、广播电视节目制作、影视文化培训、文艺创作、版权贸易、影视基金创投和新锐导</p>
+        </div>
+    </div>
+    <img class="titleenglish" src="./images/leader/titleenglish.png" alt="">
+    <div class="swiper">
+        <div class="current-swiper swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide1">
+                    <div class="title">最幕影业创始人、董事长</div>
+                    <div class="name">李 强</div>
+                    <p class="detail">最幕（北京）影视文化传媒有限公司董事长；
+                        全球领袖联盟中国秘书处秘书长；
+                        中国国际经济技术合作促进会城市发展中心执行主任；
+                        博今国际文化交流有限公司董事长；
+                        西海领袖国际商学院创始人；
+                        “一带一路”电影共享计划发起人；
+                        《总统有话说》联合发起人；
+                        毕业于北京大学工商管理专业，并先后在清华大学、
+                        人民大学、北京电影学院等高等学府进修股权投资、
+                        互联网金融、影视金融、影视制片等专业；
+                        先后在房地产、现代农业、金融、天使创投、影视、
+                        高端教育等领域成功投资。
+                         </p></div>
+                <div class="swiper-slide slide2">
+                    <div class="title">最幕影业联合创始人、制片人</div>
+                    <div class="name">徐献锋</div>
+                    <p class="detail">最幕（北京）影视文化传媒有限公司总裁；
+                        “一带一路”电影共享计划联合发起人；
+                        《总统有话说》联合发起人；
+                        电影《山水恋人》总制片人，获得世界民族电影节最
+                        佳摄影奖；
+                        电影《Run away child》制片人，获圣地亚哥儿童电影
+                        节最佳制片人提名奖；
+                        院线电影《擒贼先擒王》总制片人；
+                        院线电影《意外关系》总制片人；
+                        网剧《齐丑无艳》总制片人。</p></div>
+                <div class="swiper-slide slide3">
+                    <div class="title">最幕影业创始人、董事长</div>
+                    <div class="name">李 强</div>
+                    <p class="detail"> 全球领袖联盟中国秘书处秘书长；
+                        中国国际经济技术合作促进会城市发展中心执行主任；
+                        博今国际文化交流有限公司董事长；
+                        西海领袖国际商学院创始人；</p></div>
+            </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <div class="nocurrent-swiper left-swiper swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide3">
+                    <div class="title">最幕影业创始人、董事长</div>
+                    <div class="name">李 强</div>
+                    <p class="detail">全球领袖联盟中国秘书处秘书长；
+                        中国国际经济技术合作促进会城市发展中心执行主任；
+                        博今国际文化交流有限公司董事长；
+                        西海领袖国际商学院创始人；</p></div>
+                <div class="swiper-slide slide1">
+                    <div class="title">最幕影业创始人、董事长</div>
+                    <div class="name">李 强</div>
+                    <p class="detail">最幕（北京）影视文化传媒有限公司董事长；
+                        全球领袖联盟中国秘书处秘书长；
+                        中国国际经济技术合作促进会城市发展中心执行主任；
+                        博今国际文化交流有限公司董事长；
+                        西海领袖国际商学院创始人；
+                        “一带一路”电影共享计划发起人；
+                        《总统有话说》联合发起人；
+                        毕业于北京大学工商管理专业，并先后在清华大学、
+                        人民大学、北京电影学院等高等学府进修股权投资、
+                        互联网金融、影视金融、影视制片等专业；
+                        先后在房地产、现代农业、金融、天使创投、影视、
+                        高端教育等领域成功投资。
+                         </p></div>
+                <div class="swiper-slide slide2">
+                    <div class="title">最幕影业联合创始人、制片人</div>
+                    <div class="name">徐献锋</div>
+                    <p class="detail">最幕（北京）影视文化传媒有限公司总裁；
+                        “一带一路”电影共享计划联合发起人；
+                        《总统有话说》联合发起人；
+                        电影《山水恋人》总制片人，获得世界民族电影节最
+                        佳摄影奖；
+                        电影《Run away child》制片人，获圣地亚哥儿童电影
+                        节最佳制片人提名奖；
+                        院线电影《擒贼先擒王》总制片人；
+                        院线电影《意外关系》总制片人；
+                        网剧《齐丑无艳》总制片人。</p></div>
+            </div>
+        </div>
+
+        <div class="nocurrent-swiper right-swiper swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide2">
+                    <div class="title">最幕影业联合创始人、制片人</div>
+                    <div class="name">徐献锋</div>
+                    <p class="detail">最幕（北京）影视文化传媒有限公司总裁；
+                        “一带一路”电影共享计划联合发起人；
+                        《总统有话说》联合发起人；
+                        电影《山水恋人》总制片人，获得世界民族电影节最
+                        佳摄影奖；
+                        电影《Run away child》制片人，获圣地亚哥儿童电影
+                        节最佳制片人提名奖；
+                        院线电影《擒贼先擒王》总制片人；
+                        院线电影《意外关系》总制片人；
+                        网剧《齐丑无艳》总制片人。</p></div>
+                <div class="swiper-slide slide3">
+                    <div class="title">最幕影业创始人、董事长</div>
+                    <div class="name">李 强</div>
+                    <p class="detail">全球领袖联盟中国秘书处秘书长；
+                        中国国际经济技术合作促进会城市发展中心执行主任；
+                        博今国际文化交流有限公司董事长；
+                        西海领袖国际商学院创始人；</p></div>
+                <div class="swiper-slide slide1">
+                    <div class="title">最幕影业创始人、董事长</div>
+                    <div class="name">李 强</div>
+                    <p class="detail">
+                        最幕（北京）影视文化传媒有限公司董事长；
+                        全球领袖联盟中国秘书处秘书长；
+                        中国国际经济技术合作促进会城市发展中心执行主任；
+                        博今国际文化交流有限公司董事长；
+                        西海领袖国际商学院创始人；
+                        “一带一路”电影共享计划发起人；
+                        《总统有话说》联合发起人；
+                        毕业于北京大学工商管理专业，并先后在清华大学、
+                        人民大学、北京电影学院等高等学府进修股权投资、
+                        互联网金融、影视金融、影视制片等专业；
+                        先后在房地产、现代农业、金融、天使创投、影视、
+                        高端教育等领域成功投资。
+                         </p></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end-->
+
+<div class="x-container" style="background: #fbfbfb;">
+    <div class="home1">
+        <div class="title">
+            <img src="./images/news/title.png" alt="">
+        </div>
+        <div class="cont">
+            <!--<div class="title_con">-->
+                <!--<div class="t1">NEWS CENTER</div>-->
+                <!--<div class="t2">新闻中心</div>-->
+                <!--<a href="#" class="link"><span class="s1">查看更多</span><i class="arr"></i></a></div>-->
+            <div class="tit clear">
+                <div class="l">
+                    <a href="#" target="_blank" title=""
+                       class="a">
+                        <div class="img scaleimg"><img src="./images/news/jz1.jpg" alt="" title=""></div>
+                        <div class="c"><span class="ellipeie">电视剧《大江大河》...</span>
+                            <div class="time">2018-12-18</div>
+                        </div>
+                    </a>
+                    <script>
+                        $(function () {
+                            var _width = $(window).width();
+                            if (_width < 751) {
+                                $('.a').removeAttr('target');
+                            }
+                        })
+                    </script>
+                </div>
+                <div class="r">
+                    <div class="li">
+                        <div class="time"><b>18</b>- 2018 - 12</div>
+                        <div class="xd_wp">
+                            <span></span><span></span><span></span><span></span><span></span><span></span></div>
+                        <div class="h3"><a href="#" target="_blank"
+                                           title="" class="ellipeie">电影《天气预爆》“众神贺岁”好戏开场
+                            肖央携众神挑战“风...</a></div>
+                        <div class="p">
+                            昨日，贺岁最强喜剧《天气预爆》在京举办“众神贺岁”发布会，肖央、杜鹃、常远、小沈阳、岳云鹏、王小利、衣云鹤、桑平齐亮相。活动现场，众位“神仙”不仅耍宝互怼包袱不...
+                        </div>
+                        <script>
+                            $(function () {
+                                var _width = $(window).width();
+                                if (_width < 751) {
+                                    $('.ellipeie').removeAttr('target');
+                                }
+                            })
+                        </script>
+                    </div>
+                    <div class="li">
+                        <div class="time"><b>29</b>- 2018 - 10</div>
+                        <div class="xd_wp">
+                            <span></span><span></span><span></span><span></span><span></span><span></span></div>
+                        <div class="h3"><a href="#" target="_blank" title="导演韩延斩获最佳导演 《动物世界》工业水准获好评"
+                                           class="ellipeie">导演韩延斩获最佳导演 《动物世界》工业水准获好评</a></div>
+                        <div class="p">10月26日，电影《动物世界》导演韩延携制片人陈祉希出席东京国际电影节，导演韩延荣获中国电影周最佳导演奖。
+
+                        </div>
+                        <script>
+                            $(function () {
+                                var _width = $(window).width();
+                                if (_width < 751) {
+                                    $('.ellipeie').removeAttr('target');
+                                }
+                            })
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="newmore">
+            MORE  &nbsp;&nbsp;更多
+        </div>
+    </div>
+</div>
+
+<!--最幕培训-->
+<div class="zm-index-tab">
+    <div class="titleImg">
+        <img src="./images/peixun/title.png" alt="">
+    </div>
+    <div class="tab-container">
+        <div class="content">
+            <ul>
+                <li><img src="./images/tab1.jpg" alt=""></li>
+                <li><img src="./images/tab1.jpg" alt=""></li>
+                <li><img src="./images/tab1.jpg" alt=""></li>
+                <li><img src="./images/tab1.jpg" alt=""></li>
+            </ul>
+        </div>
+        <div class="tabs">
+            <div class="trangle"></div>
+            <div class="tab">
+                <a href="javascript:;" class="on"></a>
+                <a href="javascript:;"></a>
+                <a href="javascript:;"></a>
+                <a href="javascript:;"></a>
+            </div>
+        </div>
+
+        <div class="text">
+            <p>　　最幕影视表演培训机构，成立于2018年，坐落于山东省泰安市万达商圈。现已开设儿童影视表演培训班、最幕影视
+                表演艺考班、成人剧组艺人培训班、个人自媒体线上营销班（打造网红）等培训课程，是一家大型综合专业表演培训机
+                构。<br/>
+                　　最幕影视表演培训机构隶属于北京最幕影业，依托最幕影业强大的影视行业资源和其每年在业界内部投资、参与、
+                拍摄、制作、宣发的影视作品，以及最幕影业签约、合作、战略伙伴所构成的师资力量，在其不断发展的过程中，争做
+                影视表演培训领域的领跑者。<br/>
+                　　最幕影视表演培训机构的师资力量雄厚，教师团队由国内优秀导演、影视演员组成，不仅教学理念先进，而且教学
+                经验丰富。 <br/>
+                　　最幕影视表演培训机构拥有一流的课程研发团队，结合国际最新的艺术教育理念，已研发出一套专属于最幕的特色
+                教学模式。教学体系抛弃了市面上普遍存在的陈旧、教条的教学思路，采用美国著名表演体系——斯特拉▪阿德勒的理论，
+                寓教于乐，让学员在游戏的氛围中产生浓厚的兴趣，提高学员的创造力表现力与想象力，让学员在潜移默化中掌握表演
+                的精髓。<br/>
+                　　最幕影视表演培训机构针对学员的语言、情商、形体、思维等综合素质进行系统性训练，学员通过语言表演、思维
+                锻炼、情商培养、释放天性、人物模仿、配音训练、形体礼仪等课程的培训，不仅在专业技能上有所收获，还将在专注
+                力、想象力、创造力、耐挫力、待人礼仪、沟通能力和团队协作能力等方面得到显著提高。<br/>
+                　　最幕影视表演培训机构始终坚持高标准、严要求，外塑形象，内强素质，创建精品课程的服务理念，为打造国内一
+                流的表演培训品牌而努力奋斗。</p>
+        </div>
+    </div>
+    <div class="newmore">
+        MORE  &nbsp;&nbsp;更多
+    </div>
+</div>
+<!--end-->
+
+<!--zm-影片-->
+<div class="hezuofaxing-view">
+    <div class="hezuofaxing-title">
+        <img src="./images/release/title.png" alt="">
+    </div>
+    <div class="layui-carousel hezuofaxing-info-view" id="hezuofaxing" lay-anim="default" lay-indicator="inside"
+         lay-arrow="hover" style="width: 100%; height: 720px;">
+        <div carousel-item="">
+            <div class="layui-this">
+                <div class="jingpinzizhi-info-item-view">
+                    <img src="./images/yingpian/qlen_bak.jpg" class="jingpinzizhi-banner">
+                    <div class="jingpinzizhi-info-item">
+                        <div class="jingpinzizhi-info-img">
+                            <img src="./images/yingpian/qlen.jpg">
+                        </div>
+                        <div class="jingpinzizhi-info-text-view">
+                            <div class="jingpinzizhi-info-name">《齐鲁儿女》</div>
+                            <div class="jingpinzizhi-info-text">
+                                最幕旗下拥有专业的影视发行公司——北京最幕影视发行有限公司，
+                                简称最幕娱乐。最幕娱乐现有娱乐营销和宣传发行两大事业板块。业务
+                                主要包括影视发行、电影营销，电视剧营销、综艺节目营销、明星品牌
+                                管理和推广等。最幕旗下拥有专业的影视发行公司——北京最幕影视发
+                                行有限公司，简称最幕娱乐。最幕娱乐现有娱乐营销和宣传发行两大事
+                                业板块。业务主要包括影视发行、电影营销，电视剧营销、综艺节目营
+                                销、明星品牌管理和推广等。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="jingpinzizhi-info-item-view">
+                    <img src="./images/yingpian/qlen_bak.jpg" class="jingpinzizhi-banner">
+                    <div class="jingpinzizhi-info-item">
+                        <div class="jingpinzizhi-info-img">
+                            <img src="./images/yingpian/qlen.jpg">
+                        </div>
+                        <div class="jingpinzizhi-info-text-view">
+                            <div class="jingpinzizhi-info-name">《齐鲁儿女》</div>
+                            <div class="jingpinzizhi-info-text">
+                                最幕旗下拥有专业的影视发行公司——北京最幕影视发行有限公司，
+                                简称最幕娱乐。最幕娱乐现有娱乐营销和宣传发行两大事业板块。业务
+                                主要包括影视发行、电影营销，电视剧营销、综艺节目营销、明星品牌
+                                管理和推广等。最幕旗下拥有专业的影视发行公司——北京最幕影视发
+                                行有限公司，简称最幕娱乐。最幕娱乐现有娱乐营销和宣传发行两大事
+                                业板块。业务主要包括影视发行、电影营销，电视剧营销、综艺节目营
+                                销、明星品牌管理和推广等。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-carousel-ind">
+            <ul>
+                <li class="layui-this"></li>
+                <li class=""></li>
+            </ul>
+        </div>
+        <button class="layui-icon layui-carousel-arrow" lay-type="sub"> < </button>
+        <button class="layui-icon layui-carousel-arrow" lay-type="add"> > </button>
+    </div>
+</div>
+<!--end-->
+
+<!--艺人-->
+<div class="artist-container">
+    <div class="artisttitle">
+        <img src="./images/artist/title.png" alt="">
+    </div>
+    <div id="div_0">
+        <div id="div_lattice">
+            <div id="div_lattice_1" class="div_lattice_0"
+                 onMouseOver="fn_lattice_show(1)"
+                 onmouseout="fn_lattice_hidden(1)"
+            >
+                <div id="div_lattice_1_3bg" class="div_lattice_bg"></div>
+                <img src="./images/artist/5.jpg" alt="">
+                <div id="div_lattice_1_3" class="div_lattice_3">高海诚</div>
+            </div>
+            <div id="div_lattice_2" class="div_lattice_0"
+                 onMouseOver="fn_lattice_show(2)"
+                 onmouseout="fn_lattice_hidden(2)"
+            >
+                <div id="div_lattice_2_3bg"></div>
+                <img src="./images/artist/6.jpg" alt="">
+                <div id="div_lattice_2_3" class="div_lattice_3">武虹言</div>
+            </div>
+            <div id="div_lattice_3" class="div_lattice_0"
+                 onMouseOver="fn_lattice_show(3)"
+                 onmouseout="fn_lattice_hidden(3)"
+            >
+                <div id="div_lattice_3_3bg"></div>
+                <img src="./images/artist/7.jpg" alt="">
+                <div id="div_lattice_3_3" class="div_lattice_3">郝文婷</div>
+            </div>
+            <div id="div_lattice_4" class="div_lattice_0"
+                 onMouseOver="fn_lattice_show(4)"
+                 onmouseout="fn_lattice_hidden(4)"
+            >
+                <div id="div_lattice_4_3bg"></div>
+                <img src="./images/artist/8.jpg" alt="">
+                <div id="div_lattice_4_3" class="div_lattice_3">任德程</div>
+            </div>
+            <!--<div id="div_lattice_5" class="div_lattice_0"
+                 onMouseOver="fn_lattice_show(5)"
+                 onmouseout="fn_lattice_hidden(5)"
+            >
+                <div id="div_lattice_5_3bg"></div>
+                <img src="./images/artist/2018_5_17_17_20_6_adv0b_151.jpg" alt="">
+                <div id="div_lattice_5_3" class="div_lattice_3">赖雨濛 0318生日快乐</div>
+            </div>
+            <div id="div_lattice_6" class="div_lattice_0"
+                 onMouseOver="fn_lattice_show(6)"
+                 onmouseout="fn_lattice_hidden(6)"
+            >
+                <div id="div_lattice_6_3bg"></div>
+                <img src="./images/artist/2018_5_17_17_20_6_adv0b_151.jpg" alt="">
+                <div id="div_lattice_6_3" class="div_lattice_3">左立《再见路星河》本色出演</div>
+            </div>
+            <div id="div_lattice_7" class="div_lattice_0"
+                 onMouseOver="fn_lattice_show(8)"
+                 onmouseout="fn_lattice_hidden(8)"
+            >
+                <div id="div_lattice_7_3bg"></div>
+                <img src="./images/artist/2018_5_17_17_20_6_adv0b_151.jpg" alt="">
+                &lt;!&ndash;<div id="div_lattice_7_1" class="div_lattice_1"></div>&ndash;&gt;
+                &lt;!&ndash;<div id="div_lattice_7_2" class="div_lattice_2" onMouseOver="fn_lattice_show(7)"></div>&ndash;&gt;
+                <div id="div_lattice_7_3" class="div_lattice_3">《天意》再曝剧照
+                    欧豪海铃等三对CP集体发糖
+                </div>
+            </div>
+            <div id="div_lattice_8" class="div_lattice_0"
+                 onMouseOver="fn_lattice_show(8)"
+                 onmouseout="fn_lattice_hidden(8)"
+            >
+                <div id="div_lattice_8_3bg"></div>
+                <img src="./images/artist/2018_5_17_17_20_6_adv0b_151.jpg" alt="">
+                &lt;!&ndash;<div id="div_lattice_8_1" class="div_lattice_1"></div>&ndash;&gt;
+                &lt;!&ndash;<div id="div_lattice_8_2" class="div_lattice_2" onMouseOver="fn_lattice_show(8)"></div>&ndash;&gt;
+                <div id="div_lattice_8_3" class="div_lattice_3">于朦胧《新白娘子传奇》敬请期待
+                </div>
+            </div>
+            <div id="div_lattice_9" class="div_lattice_0"
+                 onMouseOver="fn_lattice_show(9)"
+                 onmouseout="fn_lattice_hidden(9)"
+                 onmouseout="fn_lattice_hidden(9)"
+            >
+                <div id="div_lattice_9_3bg"></div>
+                <img src="./images/artist/2018_5_17_17_20_6_adv0b_151.jpg" alt="">
+                &lt;!&ndash;<div id="div_lattice_9_1" class="div_lattice_1"></div>&ndash;&gt;
+                &lt;!&ndash;<div id="div_lattice_9_2" class="div_lattice_2" onMouseOver="fn_lattice_show(9)"></div>&ndash;&gt;
+                <div id="div_lattice_9_3" class="div_lattice_3">刘忻领衔《国民女团》
+                    霸气追击异星女团
+                </div>
+            </div>-->
+        </div>
+    </div>
+</div>
+<!--end-->
+<script type="text/javascript">
+    $(function () {
+        $(window).scroll(function () {
+            scorllAnimate('.home1');
+        });
+        $(window).load(function () {
+            scorllAnimate('.home1');
+        });
+
+        var h = $(window).height();
+        $('.top_vedio').css({
+            "height": h
+        });
+        $('.banner-container').css({
+            "height": h
+        });
+
+        var zmheader = $('.x-header');
+        var navH = zmheader.offset().top;
+        $(window).scroll(function () {
+            var scroH = $(this).scrollTop();
+            console.log(scroH,navH);
+            if (scroH >= navH) {
+                zmheader.css({"position": "fixed", "top": 0, "zIndex": 999999});
+                zmheader.addClass("activeHeader")
+            } else if (scroH < navH) {
+                zmheader.css({"position": ""});
+                zmheader.removeClass("activeHeader")
+            }
+        });
+
+
+        var timeR = null;
+        var player = videojs('example_video_1');
+        player.play();
+
+        function autoP() {
+            if (player.ended()) {
+                $('.top_vedio').slideUp(800)
+                $("body,html").animate({scrollTop: 0}, 800)
+                clearInterval(timeR)
+
+            }
+        }
+
+        timeR = setInterval(autoP, 10)
+
+        $('.openvideo').click(function () {
+            $('.top_vedio').slideDown(800)
+            $("body,html").animate({scrollTop: 0}, 500)
+            setTimeout(function () {
+                player.play();
+                timeR = setInterval(autoP, 10)
+            }, 800)
+        });
+
+
+        $(".scr_btn").click(function () {
+            player.pause();
+            clearInterval(timeR)
+            $('.top_vedio').slideUp(800)
+            $("body,html").animate({scrollTop: 0}, 800)
+        });
+
+        fixScreen();
+        function fixScreen() {
+            var ww = $("body").width();
+            var wh = window.innerHeight;
+            var wper = ww / wh;
+            var per = [720 / 406, 1440 / 810, 1920 / 1006, 1280 / 720, 1920 / 1006];
+
+            $('.videoW').each(function (index, element) {
+                if (wper > per[index]) {
+                    $(this).css({
+                        'width': ww,
+                        'height': ww / per[index],
+                        'margin-top': -1 * (ww / per[index] - wh) / 2
+                    });
+                } else {
+                    $(this).css({
+                        'width': wh * per[index],
+                        'height': wh,
+                        'margin-left': -1 * (wh * per[index] - ww) / 2
+                    });
+                }
+            });
+        };
+
+        var _flag = true;
+        // 超出一屏的时候  视频暂停
+        $(window).scroll(function () {
+            if (_flag) {
+                if ($(window).scrollTop() >= h) {
+                    player.pause();
+                    clearInterval(timeR)
+                }
+                _flag = false;
+            } else {
+                _flag = true;
+            }
+        })
+    });
+</script>
+<script>
+    //转载请标注版权 Swiper中文网 www.swiper.com.cn
+    lock = false;
+    bgColor = ["rgb(177, 100, 95)", "rgb(180, 183, 166)", "rgb(140, 152, 187)"]; //背景色
+    var bannerSwiper = new Swiper('#banner-container', {
+        speed: 1300,
+        allowTouchMove: false,//禁止触摸滑动
+        parallax: true,  //文字位移视差
+        on: {
+            transitionStart: function () {
+                lock = true; //锁住按钮
+                slides = this.slides
+                imgBox = slides.eq(this.previousIndex).find('.bannerImgBox') //图片包装器
+                imgPrev = slides.eq(this.previousIndex).find('img')  //当前图片
+                imgActive = slides.eq(this.activeIndex).find('img')  //下一张图片
+                derection = this.activeIndex - this.previousIndex
+                this.$el.css("background-color", bgColor[this.activeIndex]);//背景颜色动画
+
+                imgBox.transform('matrix(0.6, 0, 0, 0.6, 0, 0)');
+                imgPrev.transition(1000).transform('matrix(1.2, 0, 0, 1.2, 0, 0)');//图片缩放视差
+                this.slides.eq(this.previousIndex).find('h3').transition(1000).css('color', 'rgba(255,255,255,0)');//文字透明动画
+
+                imgPrev.transitionEnd(function () {
+                    imgActive.transition(1300).transform('translate3d(0, 0, 0) matrix(1.2, 0, 0, 1.2, 0, 0)');//图片位移视差
+                    imgPrev.transition(1300).transform('translate3d(' + 60 * derection + '%, 0, 0)  matrix(1.2, 0, 0, 1.2, 0, 0)');
+                });
+            },
+            transitionEnd: function () {
+                this.slides.eq(this.activeIndex).find('.bannerImgBox').transform(' matrix(1, 0, 0, 1, 0, 0)');
+                imgActive = this.slides.eq(this.activeIndex).find('img')
+                imgActive.transition(1000).transform(' matrix(1, 0, 0, 1, 0, 0)');
+                this.slides.eq(this.activeIndex).find('h3').transition(1000).css('color', 'rgba(255,255,255,1)');
+
+                imgActive.transitionEnd(function () {
+                    lock = false
+                });
+                //第一个和最后一个，禁止按钮
+                if (this.activeIndex == 0) {
+                    this.$el.find('.button-prev').addClass('disabled');
+                } else {
+                    this.$el.find('.button-prev').removeClass('disabled');
+                }
+
+                if (this.activeIndex == this.slides.length - 1) {
+                    this.$el.find('.button-next').addClass('disabled');
+                } else {
+                    this.$el.find('.button-next').removeClass('disabled');
+                }
+            },
+            init: function () {
+                this.emit('transitionEnd');//在初始化时触发一次transitionEnd事件
+            },
+
+        }
+    });
+
+    //不使用自带的按钮组件，使用lock控制按钮锁定时间
+    bannerSwiper.$el.find('.button-next').on('click', function () {
+        if (!lock) {
+            bannerSwiper.slideNext();
+        }
+    })
+    bannerSwiper.$el.find('.button-prev').on('click', function () {
+        if (!lock) {
+            bannerSwiper.slidePrev();
+        }
+    })
+</script>
+<!--leader-->
+<script>
+    var currentSwiper = new Swiper('.current-swiper', {
+        loop: true,
+    });
+    currentSwiper.$el.parent().find('.swiper-button-next').on('click', function () {//去除按钮阴影
+        currentSwiper.slideNext();
+    })
+    currentSwiper.$el.parent().find('.swiper-button-prev').on('click', function () {
+        currentSwiper.slidePrev();
+    })
+    var leftSwiper = new Swiper('.left-swiper', {
+        loop: true,
+        simulateTouch: false,
+    });
+    var rightSwiper = new Swiper('.right-swiper', {
+        loop: true,
+        simulateTouch: false,
+    });
+    currentSwiper.controller.control = [leftSwiper, rightSwiper];
+</script>
+<script>
+    $(function () {
+        $('.tab-container .content ul').width(388 * $('.tab-container .content li').length + 'px');
+        $(".tab-container .tab a").mouseover(function () {
+            $(this).addClass('on').siblings().removeClass('on');
+            var index = $(this).index();
+            number = index;
+            var distance = -388 * index;
+            $('.tab-container .content ul').stop().animate({
+                left: distance
+            });
+        });
+
+        var auto = 1;  //等于1则自动切换，其他任意数字则不自动切换
+        if (auto == 1) {
+            var number = 0;
+            var maxNumber = $('.tab-container .tab a').length;
+
+            function autotab() {
+                number++;
+                number == maxNumber ? number = 0 : number;
+                $('.tabbox .tab a:eq(' + number + ')').addClass('on').siblings().removeClass('on');
+                var distance = -388 * number;
+                $('.tab-container .content ul').stop().animate({
+                    left: distance
+                });
+            }
+
+            var tabChange = setInterval(autotab, 3000);
+            //鼠标悬停暂停切换
+            $('.tab-container').mouseover(function () {
+                clearInterval(tabChange);
+            });
+            $('.tab-container').mouseout(function () {
+                tabChange = setInterval(autotab, 3000);
+            });
+        }
+    });
+</script>
+
+<div class="x-footer">
+    <div class="footer-container">
+        <ul class="bigul">
+            <li class="footerleft">
+                <p>国内领先的数字内容创新平台4516，以"数据和人才"为基石，集合互联网影视策划/出品/制作/宣传/发行/孵化/衍生/开发等优势能力和资源于一体。</p>
+            </li>
+            <li class="footermiddle">
+                <div class="mid">
+                    <dl class="ewm">
+                        <dt>二维码入口</dt>
+                        <dd>
+                            <img class="img1" src="./images/tab1.jpg" alt="">
+                            <img class="img2" src="./images/tab1.jpg" alt="">
+                        </dd>
+                    </dl>
+                    <dl class="server">
+                        <dt>服务条约</dt>
+                        <dd>服务条约</dd>
+                        <dd>隐私政策</dd>
+                    </dl>
+                    <dl class="onfocus">
+                        <dt>关注最幕</dt>
+                        <dd>新闻中心</dd>
+                        <dd>关于我们</dd>
+                        <dd>联系我们</dd>
+                    </dl>
+                </div>
+            </li>
+            <li class="footerright">
+                <ul>
+                    <li class="tel">010-5352 5352</li>
+                    <li class="time">周一至周五 09：30 - 18：30</li>
+                    <li class="help">帮助中心</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="zb">
+        <p>Copyright ©版权所有 最幕（北京）影视文化传媒有限公司 京ICP备18044652号-1</p>
+        <p>地址：北京市朝阳区五里桥一街1号非中心18号楼3层</p>
+    </div>
+</div>
+
+<script>
+    var width = window.screen.width;
+    var index_banner_height = 812.73;
+    layui.use('carousel', function () {
+        var carousel = layui.carousel;
+        //建造实例
+        carousel.render({
+            elem: '#test1'
+            , width: '100%' //设置容器宽度
+            , arrow: 'always' //始终显示箭头
+            //,anim: 'updown' //切换动画方式
+        });
+    });
+    layui.use('carousel', function () {
+        console.log(1);
+        var $ = layui.jquery,
+            carousel = layui.carousel;
+        //alert(width);
+        if (width == 1440 || width == 1680) {
+            index_banner_height = 615;
+        }
+
+        carousel.render({
+            elem: '#hezuofaxing'
+            , width: '100%'
+            , height: '720px'
+            , interval: 5000
+        });
+    });
+
+    function getTop(clsName) {
+        var obj = document.getElementsByClassName(clsName)[0];
+        return obj.getBoundingClientRect().top;
+    }
+
+    window.addEventListener('scroll',
+        function () {
+            var scrollT = document.documentElement.scrollTop || document.body.scrollTop;
+
+            //合作发行
+            if (getTop('hezuofaxing-view') < 350) {
+                $('.hezuofaxing-view .jingpinzizhi-banner').addClass('up-31 animation-delay-0');
+                $('.hezuofaxing-view .jingpinzizhi-info-name, .hezuofaxing-view .jingpinzizhi-info-en').addClass('right animation-delay-1');
+                $('.hezuofaxing-view .jingpinzizhi-info-text').addClass('bottom animation-delay-2');
+                $('.hezuofaxing-view .jingpinzizhi-info-img img').addClass('enlarge animation-delay-3');
+            }
+        })
+</script>
+
+<script type="text/javascript">
+    window.onload = function () {
+        if ($(window).width() < 1025) {
+            $('a').removeAttr('target');
+        }
+    };
+</script>
+<script src="js/artist.js"></script>
+</body>
+</html>
